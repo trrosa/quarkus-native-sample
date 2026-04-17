@@ -9,6 +9,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 import java.util.Optional;
 
+@Authorized
 @AllArgsConstructor
 @Path("/cards")
 public class CardRestResource {
